@@ -1,0 +1,430 @@
+@font-face {
+    font-family: "et-book";
+    src: url("et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot");
+    src: url("et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot?#iefix") format("embedded-opentype"), url("et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.woff") format("woff"), url("et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.ttf") format("truetype"), url("et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.svg#etbookromanosf") format("svg");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+body {
+font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    color: #604C33;
+    background-color: #F7F6F2;
+}
+
+header.app-header.app-content-box {
+    background-color: #eae1d4;
+}
+
+a._0_URL {
+    color: #604C33;
+}
+
+.__sri-title .__sri_title_link {
+color: #604C33;
+}
+
+.__sri-desc {
+    color: #604C33;
+}
+
+span.path {
+    color: rosybrown;
+}
+
+.inlineHeader {
+    color: #604C33;
+    font-family: font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+
+
+/* Custom Variables */
+:root {
+    --page-text-color: #604C33;
+    --background-color: #F7F6F2;
+    --color-primary: #604C33;
+    --color-secondary: #604C33;
+    --color-link: rosybrown;
+    --color-danger: #da5819;
+    --color-primary_hover: #58712b;
+    --color-primary_visited: #A16B56; /* Pink for visited links */
+    --result-item-title-border_hover: #58712b;
+    --search-result-title-hover: #58712b;
+--search-result-title: #604C33;
+--dd-hover-bg: #DCD5B8;
+--dd-hover-color: #604C33;
+--btn-primary-color: #ffffff;
+--auto-sugg-bg_hover: #DCD5B8;
+--search-result-date-new-bg: #ffd797;
+--search-result-date-new: #604C33;
+--k-tooltip-bg: #beb2a2d6;
+--k-tooltip-text: #ffffff;
+--resultsummary-highlight: #E4D0B4;
+--filter-dd-bg: #f2f0e7
+}
+
+/* Link Styling */
+a {
+    color: var(--color-link);
+    text-decoration: none;
+}
+
+.__sri-title .__sri_title_link:visited{
+    color: #A16B56;
+}
+
+/* Visited Link Hover Styling */
+a:visited:hover {
+    color: #58712b !important;
+}
+
+/* Bold Titles for Links */
+a.__sri_title_link._0_sri_title_link._0_URL {
+    font-weight: bold;
+}
+
+._0_app_theme_switch_box button.checked ._0_active_theme_name, ._0_app_theme_switch_box button>input:checked+._0_active_theme_name {
+    background-color: #604C33;
+	color: #F4F0E8;
+}
+
+.btn.--primary, .ranked-item-tab-links a.--primary{
+background-color: #604C33;
+color: #F4F0E8;
+--color-primary_hover: #58712b;
+
+}
+
+.theme_light a {
+    color: #604c33;
+}
+
+.__srgi-title a:visited {
+    color: #A16B56;
+}
+
+/* Video results*/
+
+.box .videoResultTitle {
+
+color:  #604C33;
+
+}
+
+.widget-provider span {
+
+color: #604C33;
+
+}
+
+.widget-provider {
+
+color: #604C33;
+
+}
+
+
+
+/* In-line headers, for videos, quick peek, etc */
+.inlineHeader {
+
+    color: saddlebrown;
+    font-family: font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.widget-simple .__domain-name {
+
+	background-color: #F4F0E8;
+	color: saddlebrown;
+}
+
+.widget-simple .__result-date {
+color: saddlebrown;
+	
+}
+
+.read-more-inline {
+color: #604C33;
+
+}
+.box-wrapper.box-less .box .widget-body {
+background-color: #F1ECE3
+}
+
+.widgetContent .widgetItems .widgetNews .widget-body {
+background-color: #e4d0b473
+}
+
+.__sri-time {
+
+background-color: #e4d0b466;
+color: #604C33;
+
+}
+
+._0_filters-clear-btn {
+background-color: #F4F0E8
+}
+
+/* Chat boxes in Assistant Mode*/
+.orb_chat_win ._0_orb_q {
+
+background-color: #f2e8d4;
+}
+
+/* Icon text colour of the logo */
+
+style attribute {
+fill: #ffffff;
+}
+
+/* Background of text box for Assistant Mode Chatbox */
+
+.assistant-info-model-table .provider-vertical {
+background: #f2e8d4;
+}
+
+/* Ultimate Plan mode background */
+
+.assistant-info-model-table .model .ia_mode_badge {
+background-color: #9c875a;
+}
+
+.ico_ia.mode_7 {
+background-color: #675caa !important;
+}
+
+.assistant-info-title {
+font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+font-size: 1.125rem;
+color: saddlebrown;
+font-style: italic;
+}
+
+/* Buttons */
+.btn.--secondary, .ranked-item-tab-links a {
+background-color: #E4D0B4;
+}
+.btn.--primary--light, .ranked-item-tab-links a.--primary--light {
+background-color: #beb2a2;
+}
+
+
+
+._0_filters-clear-btn {
+background-color: #F4F0E8
+}
+
+b {
+color: brown;
+}
+
+.__sri-url .__sri_url_path_box {
+color: #a97100;
+}
+
+span.__sri-time.--new {
+color: #604C33;
+background-color: #ffd797;
+
+
+}
+span.__sri-time.--new {
+background: bisque; !important
+color: saddlebrown; !important
+}
+
+
+.related-items a {
+background-color: #e4d0b473;
+--color-primary_hover: #DCD5B8;
+}
+element.style {
+fill: #ffb319;
+}
+.videoResultItem .videoResultRight {
+background-color: #F4F0E8;
+}
+
+
+.assistant-info-title{
+color: saddlebrown;
+font-family: serif;
+font-style: italic;
+}
+
+.read-more-inline {
+--color-primary_hover: #58712b;
+}
+
+.footer-search-results #load_more_results {
+--color-primary_hover: #58712b;
+}
+
+.auto_suggestions .auto_suggestions_lense_path {
+color: saddlebrown;
+}
+
+.auto_suggestions .auto_suggestions_lenses_box label {
+--color-primary_hover: #58712b;
+}
+
+._0_summarize_link {
+--color-primary_hover: #58712b;
+font-weight: bold;
+}
+
+.quick-settings-footer-inner a:last-child {
+--color-primary_hover: #58712b;
+}
+
+.quick-settings-header__title {
+    font-family: serif;
+    font-weight: bold;
+}
+
+#follow_up_query_label {
+background-color: #e4e2db;
+}
+
+footer {
+background-color: #F1ECE3;
+}
+
+.footer-landing {
+background-color: #F1ECE3;
+}
+
+
+
+#stopwatch_triggers .btn:first-child, #stopwatch_triggers .ranked-item-tab-links a:first-child, .ranked-item-tab-links #stopwatch_triggers a:first-child {
+
+    --color-primary_hover: #58712b;
+}
+
+.btn.--primary--light, .ranked-item-tab-links a.--primary--light {
+background-color: #d9d2c8;
+}
+
+.widget .tooltip-trigger .k-tooltip {
+color: white
+background-color: #beb2a2d6;
+}
+
+.weather_days_box {
+background-color: #d9d8d8;
+}
+
+.wikipediaResult .wiki-title a {
+font-family: serif;
+font-weight: bold;
+}
+
+.widgetContent .widgetItems .widgetItem {
+background-color: #F4F0E8;
+--color-primary_hover: #DCD5B8;
+}
+
+.auto_suggestions_lenses_edit_box a {
+background-color: #decfaf;
+}
+
+.results_summary_text_box sup a {
+color: brown;
+}
+
+
+.d-info-section-desc.col {
+
+
+    background-color: #f6f6f6;
+}
+
+.d-info-section {
+background-color: white;
+}
+
+
+/* Edit for Phone View */
+
+.search-result, .sri-group {
+border-bottom: #f7f6f2;
+}
+
+.inline-content+.search-result, .inline-content+.sri-group {
+border-bottom: 10px solid #f7f6f2;
+}
+
+.m-h .search-input {
+    font-size: 1rem;
+    padding-left: 1rem;
+    border-radius: 24px;
+}
+
+.serp-nav {
+    background-color: #eae1d4;
+}
+
+._0_filters-panel {
+background-color: #f7f6f2;
+}
+
+.m-h {
+background-color: #eae1d4;
+}
+
+.widget-header {
+background-color: #f1ece3;
+}
+
+.box .videoResultInfo {
+background-color: #f1ece3;
+}
+
+#dictionary #dict_word {
+font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+.news .newsResultItem {
+background-color: rgb(244 240 232);
+border-radius: 20px;
+padding: 10px;
+}
+
+.podcast_result {
+background-color: rgb(244 240 232);
+border-radius: 20px;
+padding: 10px;
+}
+.not-found-box .rect{
+background-color: #eaeaea
+}
+
+
+ .inline-content+.search-result, .inline-content+.sri-group {
+    background-color: #f7f6f2;
+}
+
+.searchResultAnswers .widgetItems .searchResultAnswer {
+background-color: #f1ece3;
+}
+
+#assistant_info_box_toggler_input:checked~.assistant-info {
+background-color: #F4F0E8
+}
+
+a {
+color: #604C33;
+}
+
+.iu_url_search_box form input {
+background-color: #e6e6e6;
+}
+
+.clock {
+    fill: #ffffff;
+}
