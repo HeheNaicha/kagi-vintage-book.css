@@ -425,6 +425,14 @@ color: #604C33;
 background-color: #e6e6e6;
 }
 
+.searchResultAnswers .widgetItems .searchResultAnswer {
+    --color-primary_hover: #bababa;
+}
+
+.searchResultAnswers .widgetItems .searchResultAnswerHeader {
+font-weight: bold;
+}
+
 .clock {
     fill: #ffffff;
 }
